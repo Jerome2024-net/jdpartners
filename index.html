@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>JD Partners — Holding Company</title>
+  <meta name="description" content="JD Partners founds, owns, and operates enduring companies. Current portfolio: Seya Motors." />
+  <link rel="canonical" href="https://www.jdpartners.co/"/>
+
+  <!-- Favicon (optional simple lettermark) -->
+  <meta name="theme-color" content="#0B6FFF"/>
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="JD Partners — Holding Company">
+  <meta property="og:description" content="We build enduring companies. Portfolio: Seya Motors.">
+  <meta property="og:url" content="https://www.jdpartners.co/">
+  <meta property="og:image" content="https://res.cloudinary.com/dn8ed1doa/image/upload/f_auto,q_auto,w_1600/ChatGPT_Image_25_ao%C3%BBt_2025_20_54_55_i98bs3">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="JD Partners — Holding Company">
+  <meta name="twitter:description" content="We build enduring companies. Portfolio: Seya Motors.">
+  <meta name="twitter:image" content="https://res.cloudinary.com/dn8ed1doa/image/upload/f_auto,q_auto,w_1600/ChatGPT_Image_25_ao%C3%BBt_2025_20_54_55_i98bs3">
+
+  <!-- Fonts & Tailwind -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    :root{
+      --brand:#0B6FFF;        /* JD blue */
+      --ink:#0b1220;
+      --muted:#6b7280;
+      --bg:#f7f7f6;
+    }
+    html,body{scroll-behavior:smooth}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;border-radius:9999px;padding:.85rem 1.4rem;font-weight:600;transition:.25s}
+    .btn-primary{background:var(--ink);color:#fff}
+    .btn-primary:hover{background:var(--brand);transform:translateY(-1px)}
+    .btn-ghost{background:#fff;color:var(--ink);border:1px solid #e5e7eb}
+    .btn-ghost:hover{border-color:#cbd5e1;transform:translateY(-1px)}
+    .card{background:#fff;border:1px solid rgba(2,6,23,.06);border-radius:1.25rem}
+    .ring-soft{box-shadow:0 1px 3px rgba(2,6,23,.06), 0 6px 24px rgba(2,6,23,.06)}
+    .kicker{letter-spacing:.12em;text-transform:uppercase;font-weight:800;font-size:.72rem;color:var(--brand)}
+  </style>
+</head>
+<body class="overflow-x-hidden">
+
+  <!-- Header -->
+  <header id="hdr" class="fixed inset-x-0 top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+    <div class="max-w-7xl mx-auto h-16 px-4 flex items-center justify-between">
+      <!-- Just text, no logo -->
+      <a href="#top" class="font-extrabold tracking-tight text-lg">JD Partners</a>
+
+      <nav class="hidden md:flex items-center gap-7 text-[15px] text-slate-600">
+        <a class="hover:text-black" href="#mission">Mission</a>
+        <a class="hover:text-black" href="#companies">Companies</a>
+        <a class="hover:text-black" href="#principles">Principles</a>
+        <a class="hover:text-black" href="#news">News</a>
+        <a class="btn btn-primary" href="#contact">Contact</a>
+      </nav>
+
+      <button id="menuBtn" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full border border-slate-300" aria-label="Menu">≡</button>
+    </div>
+
+    <div id="mobileNav" class="md:hidden hidden border-t border-slate-200 bg-white/95">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-3 text-[15px]">
+        <a href="#mission">Mission</a>
+        <a href="#companies">Companies</a>
+        <a href="#principles">Principles</a>
+        <a href="#news">News</a>
+        <a class="btn btn-primary w-full mt-1" href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top" class="pt-24 md:pt-28">
+    <section class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <div class="kicker mb-3">Holding Company</div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+          We build enduring companies.
+        </h1>
+        <p class="text-lg text-slate-600 mt-4">
+          JD Partners is a parent company that <strong>founds, owns, and operates</strong> businesses.
+          We are not a fund and we do not back external ventures — we build and run them end-to-end.
+        </p>
+        <div class="mt-6 flex gap-3">
+          <a href="#companies" class="btn btn-primary">Explore companies</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+        <p class="text-sm text-slate-500 mt-4">
+          Current portfolio: <strong>Seya Motors</strong>.
+        </p>
+      </div>
+      <div class="card ring-soft overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop"
+          alt="JD Partners — portfolio illustration"
+          class="w-full h-full object-cover"
+        />
+      </div>
+    </section>
+  </main>
+
+  <!-- Mission -->
+  <section id="mission" class="max-w-7xl mx-auto px-4 mt-20">
+    <div class="card ring-soft p-8 md:p-10">
+      <div class="kicker mb-2">Our mission</div>
+      <h2 class="text-3xl font-extrabold">Compound innovation, patient capital</h2>
+      <p class="text-slate-600 mt-4 max-w-3xl">
+        We create and operate companies with a 10-year view, prioritizing durable moats, exceptional
+        product quality, and operational excellence. JD Partners provides shared platforms (brand,
+        people, finance, legal, technology) so our operating teams can build faster with focus.
+      </p>
+      <div class="mt-6 grid sm:grid-cols-3 gap-4">
+        <div class="card p-5">
+          <div class="font-semibold">Independent operating companies</div>
+          <p class="text-sm text-slate-600 mt-2">Autonomy with clear accountability and board-level support.</p>
+        </div>
+        <div class="card p-5">
+          <div class="font-semibold">Disciplined capital allocation</div>
+          <p class="text-sm text-slate-600 mt-2">Invest where we have an edge; measure against long-term IRR.</p>
+        </div>
+        <div class="card p-5">
+          <div class="font-semibold">People first</div>
+          <p class="text-sm text-slate-600 mt-2">Attract and develop exceptional leaders; align incentives to outcomes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Companies -->
+  <section id="companies" class="max-w-7xl mx-auto px-4 mt-20">
+    <div class="flex items-end justify-between gap-6 mb-6">
+      <div>
+        <div class="kicker mb-2">Companies</div>
+        <h2 class="text-3xl font-extrabold">Our portfolio</h2>
+      </div>
+      <span class="text-sm text-slate-500">Wholly owned, independently run</span>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Seya Motors -->
+      <article class="group card ring-soft p-5">
+        <div class="aspect-[16/9] rounded-xl overflow-hidden ring-1 ring-black/5 bg-black/5">
+          <img
+            src="https://res.cloudinary.com/dn8ed1doa/image/upload/f_auto,q_auto,w_1600/ChatGPT_Image_25_ao%C3%BBt_2025_20_54_55_i98bs3"
+            alt="Seya Motors — exterior"
+            class="w-full h-full object-cover group-hover:scale-[1.02] transition"
+            loading="lazy"
+          />
+        </div>
+        <div class="mt-4">
+          <h3 class="font-semibold text-lg">Seya Motors</h3>
+          <p class="text-sm text-slate-600">Electric vehicles • Autonomous stack</p>
+        </div>
+        <p class="text-slate-600 mt-3">
+          A JD Partners company: <strong>founded, owned, and operated</strong> by us. A next-generation EV brand
+          focused on minimalist design, long range, and a connected driving experience.
+        </p>
+        <div class="mt-4 flex items-center gap-3">
+          <a href="https://seya-motors.com/" class="btn btn-ghost" target="_blank" rel="noopener">Visit site</a>
+          <a href="https://buy.stripe.com/7sY14m3HKaAM0AU8as18c00" target="_blank" rel="noopener" class="text-[var(--brand)] font-semibold hover:underline">
+            Preorder →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Principles -->
+  <section id="principles" class="max-w-7xl mx-auto px-4 mt-20">
+    <div class="kicker mb-2">Operating principles</div>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="card ring-soft p-6">
+        <h3 class="font-semibold text-xl">Focus, not sprawl</h3>
+        <p class="text-slate-600 mt-2">We run a concentrated portfolio where we can be truly helpful.</p>
+      </div>
+      <div class="card ring-soft p-6">
+        <h3 class="font-semibold text-xl">Quality over growth</h3>
+        <p class="text-slate-600 mt-2">Enduring brands beat short-term blitzscaling.</p>
+      </div>
+      <div class="card ring-soft p-6">
+        <h3 class="font-semibold text-xl">Product is the strategy</h3>
+        <p class="text-slate-600 mt-2">Delight customers relentlessly; margins follow.</p>
+      </div>
+      <div class="card ring-soft p-6">
+        <h3 class="font-semibold text-xl">Transparent governance</h3>
+        <p class="text-slate-600 mt-2">Clear metrics, frequent communication, aligned incentives.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section id="news" class="max-w-7xl mx-auto px-4 mt-20">
+    <div class="kicker mb-2">News</div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <article class="card ring-soft p-5">
+        <div class="text-sm text-slate-500">Aug 2025</div>
+        <h3 class="font-semibold mt-1">Seya Origin opens preorders</h3>
+        <p class="text-slate-600 mt-2 text-sm">A $6,000 fully refundable deposit is now available via Stripe Checkout.</p>
+      </article>
+      <article class="card ring-soft p-5">
+        <div class="text-sm text-slate-500">2028</div>
+        <h3 class="font-semibold mt-1">Seya Origin planned launch</h3>
+        <p class="text-slate-600 mt-2 text-sm">Model introduction targeted with staged market rollout.</p>
+      </article>
+      <article class="card ring-soft p-5">
+        <div class="text-sm text-slate-500">Ongoing</div>
+        <h3 class="font-semibold mt-1">Hiring exceptional talent</h3>
+        <p class="text-slate-600 mt-2 text-sm">We recruit builders across product, engineering, design, and operations.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-7xl mx-auto px-4 mt-20 mb-24">
+    <div class="card ring-soft p-8 md:p-10">
+      <div class="kicker mb-2">Contact</div>
+      <h2 class="text-3xl font-extrabold">Partner with us</h2>
+      <p class="text-slate-600 mt-3 max-w-2xl">
+        Founders and operators — we’d love to connect. Reach out and we’ll get back quickly.
+      </p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a class="btn btn-primary" href="mailto:contact@jdpartners.co">contact@jdpartners.co</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://seya-motors.com/" target="_blank" rel="noopener">Seya Motors</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8 text-sm">
+      <div>
+        <div class="font-extrabold text-lg">JD Partners</div>
+        <p class="text-slate-600 mt-2">A holding company that builds and operates enduring businesses.</p>
+      </div>
+      <div>
+        <div class="font-semibold mb-2">Navigation</div>
+        <ul class="space-y-1 text-slate-600">
+          <li><a class="hover:text-black" href="#mission">Mission</a></li>
+          <li><a class="hover:text-black" href="#companies">Companies</a></li>
+          <li><a class="hover:text-black" href="#principles">Principles</a></li>
+          <li><a class="hover:text-black" href="#news">News</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="font-semibold mb-2">Portfolio</div>
+        <ul class="space-y-1 text-slate-600">
+          <li><a class="hover:text-black" href="/seya">Seya Motors</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="font-semibold mb-2">Contact</div>
+        <p class="text-slate-600">contact@jdpartners.co</p>
+      </div>
+    </div>
+    <div class="text-center text-xs text-slate-500 pb-8">
+      © 2025 JD Partners. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    const hdr=document.getElementById('hdr');
+    const mobileNav=document.getElementById('mobileNav');
+    const menuBtn=document.getElementById('menuBtn');
+    document.addEventListener('scroll',()=>{ 
+      if(window.scrollY>16){hdr.classList.add('shadow')} 
+      else {hdr.classList.remove('shadow')} 
+    },{passive:true});
+    menuBtn?.addEventListener('click',()=>{mobileNav.classList.toggle('hidden')});
+  </script>
+</body>
+</html>
